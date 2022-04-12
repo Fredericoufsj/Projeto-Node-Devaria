@@ -7,8 +7,7 @@ const minhaPrimeiraConstanteString = 'Minha primeira constante';
 console.log(minhaPrimeiraConstanteString);
 
 let leituraDeCampo;
-readLine.question('Por favor digite alguma coisa:', input => {
+readLine.question('Informe sua idade:', input =>{
     leituraDeCampo = input;
-    console.log(`o ususario digitou: ${leituraDeCampo}`);
-    
+    console.log(`o usuário digiou: ${leituraDeCampo}`)
 });
